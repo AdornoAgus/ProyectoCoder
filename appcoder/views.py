@@ -5,7 +5,7 @@ from django.template import Template, Context
 # Create your views here.
 
 def inicio(self):
-    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/appcoder/inicio.html")
+    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/inicio.html")
     plantilla= Template(miHtml.read())
     miHtml.close()
     miContexto=Context()
@@ -13,7 +13,7 @@ def inicio(self):
     return HttpResponse(documento)
 
 def curso_1(self):
-    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/appcoder/cursos.html")
+    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/cursos.html")
     plantilla= Template(miHtml.read())
     miHtml.close()
     miContexto=Context()
@@ -21,7 +21,7 @@ def curso_1(self):
     return HttpResponse(documento)
 
 def profesores(self):
-    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/appcoder/profesores.html")
+    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/profesores.html")
     plantilla= Template(miHtml.read())
     miHtml.close()
     miContexto=Context()
@@ -29,7 +29,7 @@ def profesores(self):
     return HttpResponse(documento)
 
 def entregables(self):
-    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/appcoder/entregables.html")
+    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/entregables.html")
     plantilla= Template(miHtml.read())
     miHtml.close()
     miContexto=Context()
@@ -37,7 +37,7 @@ def entregables(self):
     return HttpResponse(documento)
 
 def estudiantes(self):
-    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/appcoder/estudiantes.html")
+    miHtml=open("C:/Users/Admin/Desktop/PythonProyecto1/ProyectoCoder/CarpetaGitHub/ProyectoCoder/appcoder/template/estudiantes.html")
     plantilla= Template(miHtml.read())
     miHtml.close()
     miContexto=Context()
